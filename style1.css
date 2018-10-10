@@ -1,0 +1,88 @@
+body{
+ background: #313131;
+
+}
+#header{
+  background-color: #145414;
+  height: 150px;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+#header h1{
+	text-align: center;
+	padding-top: 50px;
+	font-family: "Comic Sans MS";
+	font-size: 50px;
+	letter-spacing: 5px;
+}
+#nav{
+	background-color: black;
+	height: 50px;
+	width: 1000px;
+	 margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+}
+ul{
+   list-style-type: none;
+   overflow: hidden;
+
+}
+li{
+	float: left;
+	padding: 10px;
+	padding-top: 1px;
+
+}
+li a{
+ text-decoration: none;
+ font-family: "Comic Sans MS";
+ transition: all 2s;
+ color: white;
+
+
+}
+li a:hover{
+background-color: grey;
+transform: scale(1.1);
+border-radius: 30%;
+}
+#content{
+    background-color: #579457;
+    height: 700px;
+    width: 1000px;
+    margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+
+}
+#content h2{
+  margin-left: 15px;
+   font-family: "Comic Sans MS";
+
+}
+#content p{
+  font-family: "Comic Sans MS";
+  font-size: 12px;
+  letter-spacing: 3px
+  
+}
+#footer{
+ background-color: black;
+ height: 50px;
+ width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+
+
+}
+#footer h5{
+	color: white;
+	padding-bottom: 5px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-family: "Comic Sans MS";
+}
